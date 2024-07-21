@@ -8,10 +8,10 @@
 
 import testing ;
 
-project 
+project
     : requirements
-        <source>/boost/core//boost_core
-        <source>/boost/random//boost_random
+        <library>/boost/core//boost_core
+        <library>/boost/random//boost_random
 
         <warnings>all
         <toolset>intel:<warnings>on
